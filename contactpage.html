@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Contact Page </title> <!--with form validation-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+<body style="height:1500px;">
+	
+  <!--integreated Bootstrap-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  
+  <!--font awesome offline link-->
+  <link type="text/css" rel="stylesheet" href="css/all.min.css">
+  
+  <!-- style css -->
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  
+  <!-- media css -->
+  <link type="text/css" rel="stylesheet" href="css/media.css">
+  
+  <!-- animate css -->
+  <link rel="stylesheet"href="css/animate.min.css">
+
+<div class="contact-wrapper">
+	<div class="container">
+		<div class="row">
+			<nav class="navbar navbar-expand-xxl  navbar-dark fixed-top">
+ 		  	<div class="container-fluid">
+  				<a class="navbar-brand text-black wow animate__hinge " data-wow-duration="3s" href="#"><img src="img/logo.png"></a>
+   			 	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      			<i class="icon fa-solid fa-bars"></i>
+    			</button>
+    			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+      			<ul class="navbar-nav">
+        			<li class="nav-item wow animate__lightSpeedInLeft " data-wow-duration="1s"><i class="fa-solid fa-house-chimney text-black awesome"></i>
+          			<a href="index.html">HOME</a>
+        			</li>
+        			<li class="nav-item wow animate__lightSpeedInRight " data-wow-duration="1s"><i class="fa-solid fa-address-card text-black awesome"></i>
+          			<a href="portfolio.html">PORTFOLIO</a>
+        			</li>
+        			<li class="nav-item wow animate__lightSpeedInLeft " data-wow-duration="1s"><i class="fa-brands fa-blogger text-black awesome"></i>
+          			<a href="blog.html">BLOG</a>
+        			</li> 
+        			<li class="nav-item wow animate__lightSpeedInRight " data-wow-duration="1s"><i class="fa-solid fa-phone-volume text-black awesome"></i>
+          			<a href="contactpage.html">CONTACT</a>
+        			</li> 
+      			</ul>
+    			</div>
+  			</div>
+			</nav>
+			<div class="contact-heading text-white">
+				<h1>CONTACT</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- contact form -->
+<div class="form-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-6">
+				<div class="contact-form">
+					<h2>SEND A MESSAGE</h2>
+					<form action="/action_page.php">
+						  <div class="mb-3 mt-3">
+							<label for="name" class="form-label">Name:</label>
+							<input type="name" class="form-control" id="name" placeholder="Full Name" name="name" required>
+						  </div>
+						  <div class="mb-3">
+							<label for="email" class="form-label">Email:</label>
+							<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+						  </div>
+						  <div class="mb-3">
+							<label for="subject" class="form-label">Subject</label>
+							<input type="subject" class="form-control" id="subject" placeholder="" name="subject" required>
+						  </div>
+						  <div class="mb-3 mt-3">
+						    <label for="message">Message-Box</label>
+						    <textarea class="form-control" rows="5" id="message" placeholder="Message" name="text" required></textarea>
+						  </div>
+						  <div class="form-check mb-3">
+							<label class="form-check-label">
+							  <input class="form-check-input" type="checkbox" name="remember"> Remember me
+							</label>
+						  </div>
+						  <button type="submit" class="btn btn-primary">Contact Us</button>
+				   </form>
+				</div>
+			</div>
+			<div class="col-12 col-lg-6 mt-5">
+				<div class="contact-info">
+					<h2>CONTACT INFORMATION</h2>
+					<h3 class="mt-5">Address</h3>
+					<ul class="list-unstyled">
+						<li>Sydney, Australia</li>
+						<li>100 Mainstreet Center</li>
+					</ul>
+					<h3>E-MAIL</h3>
+					<P><a href="#">pixelperfectmk@gmail.com</a></P>
+					<h3>PHONE</h3>
+					<p>(208) 333 9296</p>
+					<h3>FAX</h3>
+					<p>(208) 333 9296</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer-wrapper-->
+<div class="footer-wrapper mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<div class="world-footer mt-5 mb-5">
+					<h1 class="world-heading">BLOGGER</h1>
+					<P class="world-heading">We're a digital agency focused on creative and results-driven solutions.</P>
+					<P class="world-heading">We measure our success by the results we drive for our clients.</P>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="world-footer mt-5 mb-5">
+					<h1 class="world-heading">KEEP IN TOUCH</h1>
+					<P class="world-heading">info@agencyperfect.com</P>
+					<P class="world-heading">+374 (00) 80 00 00</P>
+					<P class="world-heading">+374 (00) 90 00 00</P>
+					<P class="world-heading">20 Leo, Armenia</P>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="world-footer mt-5 mb-5">
+					<h1 class="world-heading">FEATURED LINKS</h1>
+					<ul class="footer-list d-flex flex-column world-heading">
+						<div><i class="fa-solid fa-house-chimney text-black awesome"></i><a href="#">Home</a></div>
+						<div><i class="fa-brands fa-blogger text-black awesome"></i><a href="#">Blog</div>
+						<div><i class="fa-solid fa-address-card text-black awesome"></i><a href="#">Porfolio</a></div>
+						<div><i class="fa-solid fa-phone-volume text-black awesome"></i><a href="#">Contact</a></div>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<div class="social mt-5 d-flex flex-row">
+						<div class="social-icon"><i class="fa-brands fa-facebook"></i></div>
+						<div class="social-icon"><i class="fa-brands fa-twitter"></i></div>
+						<div class="social-icon"><i class="fa-brands fa-pinterest"></i></div>
+						<div class="social-icon"><i class="fa-brands fa-linkedin"></i></div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="copyright mt-5">
+						<h6 class="justify-content-end">© AGENCYPERFECT<br>ALL RIGHTS RESERVED</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="wow.min.js"></script>
+<script>   new WOW().init();          </script>
+</body>
+</html>
